@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-mq)tim2wcy*!89&1enlld!j!s#fl1*)ot%45503g)d+sdq)njc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['.herokuapp.com', 'https://django-blog-project234-1dc919d4040c.herokuapp.com/','8000-davidb3rgqvi-djangoblog-oslt6t033g9.ws-eu110.gitpod.io']
+ALLOWED_HOSTS = ['.herokuapp.com','8000-davidb3rgqvi-djangoblog-oslt6t033g9.ws-eu110.gitpod.io']
 
 
 # Application definition
