@@ -31,7 +31,8 @@ class Migration(migrations.Migration):
                 'ordering': ['-created_on'],
             },
         ),
-        migrations.CreateModel(
+        migrations
+        .CreateModel(
             name='Comment',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
